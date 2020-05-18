@@ -19,6 +19,7 @@ class TaskListItem extends StatelessWidget {
         },
       ),
       title: Text(task.title),
+      subtitle: Text(task.createAt),
       trailing: IconButton(
         icon: Icon(
           Icons.delete,
